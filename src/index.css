@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  justify-content: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +13,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.film-box {
+  width: auto;
+  margin: auto;
+  border: 2px solid grey;
+}
+
+li > a {
+  text-decoration: none;
+  color: blue;
+}
+
+button {
+  color: blue;
+  background-color: cornflowerblue;
+  margin: 5px;
+  justify-self: center;
+}
+
